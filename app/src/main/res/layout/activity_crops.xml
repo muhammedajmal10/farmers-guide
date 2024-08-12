@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background1"
+    tools:context=".crops">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="350dp"
+        android:src="@drawable/boer1" />
+
+    <ImageButton
+        android:id="@+id/srchbtn"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:src="@drawable/crop1"
+        tools:ignore="InvalidId" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="115dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="155dp"
+        android:text="SEARCH"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/srchbtn" />
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@drawable/background1"
+    tools:context=".faq">
+
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:transitionName="logo_image"
+        android:src="@drawable/boer1"/>
+
+    <android.widget.SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:queryHint="Search Here"
+        android:iconifiedByDefault="false"
+        android:inputType="text"
+        android:id="@+id/mySearchView"/>
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Which factors do help crops to grow well?" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The four most important factors that influence crop yield are soil fertility, availability of water, climate, and diseases or pests."
+            android:textStyle="bold"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What are the benefits of green manure? Can I get green manure seeds at subsidised rate?"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="What are the benefits of green manure? Can I get green manure seeds at subsidised rate?"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:text="I had a plan to construct a vermicompost yard, can I get financial assistance or input from the government side?"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yes, the state agricultural department supplies input for Rs.1200/farmer."
+        android:textStyle="bold"/>
+</LinearLayout>
